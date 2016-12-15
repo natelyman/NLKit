@@ -7,31 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		100BC4801DEE6F6000A5D30D /* NLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 100BC47F1DEE6F6000A5D30D /* NLKit.m */; };
-		100BC4811DEE6F6000A5D30D /* NLKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 100BC47E1DEE6F6000A5D30D /* NLKit.h */; };
+		100BC4B81DEE758000A5D30D /* NLKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 100BC4B61DEE758000A5D30D /* NLKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		100BC4BC1DEE758600A5D30D /* NLDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 100BC49F1DEE71D500A5D30D /* NLDispatch.m */; };
+		100BC4BD1DEE758600A5D30D /* NLFunctional.m in Sources */ = {isa = PBXBuildFile; fileRef = 100BC4A11DEE71D500A5D30D /* NLFunctional.m */; };
+		100BC4BE1DEE758600A5D30D /* NLJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 100BC4A31DEE71D500A5D30D /* NLJSON.m */; };
+		100BC4BF1DEE758600A5D30D /* NLDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 100BC4911DEE70D500A5D30D /* NLDefaults.m */; };
+		100BC4C01DEE758600A5D30D /* NLNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 100BC4891DEE701600A5D30D /* NLNetworking.m */; };
+		100BC4C11DEE758E00A5D30D /* NLDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 100BC49E1DEE71D500A5D30D /* NLDispatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		100BC4C21DEE759600A5D30D /* NLFunctional.h in Headers */ = {isa = PBXBuildFile; fileRef = 100BC4A01DEE71D500A5D30D /* NLFunctional.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		100BC4C31DEE759B00A5D30D /* NLJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 100BC4A21DEE71D500A5D30D /* NLJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		100BC4C41DEE75A000A5D30D /* NLDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 100BC4901DEE70D500A5D30D /* NLDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		100BC4C51DEE75A400A5D30D /* NLNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 100BC4881DEE701600A5D30D /* NLNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		100BC4791DEE6F6000A5D30D /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-				100BC4811DEE6F6000A5D30D /* NLKit.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		100BC47B1DEE6F6000A5D30D /* libNLKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNLKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		100BC47E1DEE6F6000A5D30D /* NLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLKit.h; sourceTree = "<group>"; };
-		100BC47F1DEE6F6000A5D30D /* NLKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLKit.m; sourceTree = "<group>"; };
+		100BC4881DEE701600A5D30D /* NLNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLNetworking.h; sourceTree = "<group>"; };
+		100BC4891DEE701600A5D30D /* NLNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLNetworking.m; sourceTree = "<group>"; };
+		100BC4901DEE70D500A5D30D /* NLDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLDefaults.h; sourceTree = "<group>"; };
+		100BC4911DEE70D500A5D30D /* NLDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLDefaults.m; sourceTree = "<group>"; };
+		100BC49E1DEE71D500A5D30D /* NLDispatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLDispatch.h; sourceTree = "<group>"; };
+		100BC49F1DEE71D500A5D30D /* NLDispatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLDispatch.m; sourceTree = "<group>"; };
+		100BC4A01DEE71D500A5D30D /* NLFunctional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLFunctional.h; sourceTree = "<group>"; };
+		100BC4A11DEE71D500A5D30D /* NLFunctional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLFunctional.m; sourceTree = "<group>"; };
+		100BC4A21DEE71D500A5D30D /* NLJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLJSON.h; sourceTree = "<group>"; };
+		100BC4A31DEE71D500A5D30D /* NLJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLJSON.m; sourceTree = "<group>"; };
+		100BC4B41DEE758000A5D30D /* NLKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NLKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		100BC4B61DEE758000A5D30D /* NLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLKit.h; sourceTree = "<group>"; };
+		100BC4B71DEE758000A5D30D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		100BC4781DEE6F6000A5D30D /* Frameworks */ = {
+		100BC4B01DEE758000A5D30D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				100BC47D1DEE6F6000A5D30D /* NLKit */,
+				100BC4B51DEE758000A5D30D /* NLKit */,
 				100BC47C1DEE6F6000A5D30D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,7 +59,7 @@
 		100BC47C1DEE6F6000A5D30D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				100BC47B1DEE6F6000A5D30D /* libNLKit.a */,
+				100BC4B41DEE758000A5D30D /* NLKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,22 +67,72 @@
 		100BC47D1DEE6F6000A5D30D /* NLKit */ = {
 			isa = PBXGroup;
 			children = (
-				100BC47E1DEE6F6000A5D30D /* NLKit.h */,
-				100BC47F1DEE6F6000A5D30D /* NLKit.m */,
+				100BC49E1DEE71D500A5D30D /* NLDispatch.h */,
+				100BC49F1DEE71D500A5D30D /* NLDispatch.m */,
+				100BC4A01DEE71D500A5D30D /* NLFunctional.h */,
+				100BC4A11DEE71D500A5D30D /* NLFunctional.m */,
+				100BC4A21DEE71D500A5D30D /* NLJSON.h */,
+				100BC4A31DEE71D500A5D30D /* NLJSON.m */,
+				100BC48F1DEE70A400A5D30D /* Persistence */,
+				100BC4871DEE6F6800A5D30D /* Networking */,
+			);
+			path = NLKit;
+			sourceTree = "<group>";
+		};
+		100BC4871DEE6F6800A5D30D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				100BC4881DEE701600A5D30D /* NLNetworking.h */,
+				100BC4891DEE701600A5D30D /* NLNetworking.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		100BC48F1DEE70A400A5D30D /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				100BC4901DEE70D500A5D30D /* NLDefaults.h */,
+				100BC4911DEE70D500A5D30D /* NLDefaults.m */,
+			);
+			name = Persistence;
+			sourceTree = "<group>";
+		};
+		100BC4B51DEE758000A5D30D /* NLKit */ = {
+			isa = PBXGroup;
+			children = (
+				100BC4B61DEE758000A5D30D /* NLKit.h */,
+				100BC4B71DEE758000A5D30D /* Info.plist */,
 			);
 			path = NLKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		100BC4B11DEE758000A5D30D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100BC4C21DEE759600A5D30D /* NLFunctional.h in Headers */,
+				100BC4C11DEE758E00A5D30D /* NLDispatch.h in Headers */,
+				100BC4C51DEE75A400A5D30D /* NLNetworking.h in Headers */,
+				100BC4C31DEE759B00A5D30D /* NLJSON.h in Headers */,
+				100BC4C41DEE75A000A5D30D /* NLDefaults.h in Headers */,
+				100BC4B81DEE758000A5D30D /* NLKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		100BC47A1DEE6F6000A5D30D /* NLKit */ = {
+		100BC4B31DEE758000A5D30D /* NLKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 100BC4841DEE6F6000A5D30D /* Build configuration list for PBXNativeTarget "NLKit" */;
+			buildConfigurationList = 100BC4B91DEE758000A5D30D /* Build configuration list for PBXNativeTarget "NLKit" */;
 			buildPhases = (
-				100BC4771DEE6F6000A5D30D /* Sources */,
-				100BC4781DEE6F6000A5D30D /* Frameworks */,
-				100BC4791DEE6F6000A5D30D /* CopyFiles */,
+				100BC4AF1DEE758000A5D30D /* Sources */,
+				100BC4B01DEE758000A5D30D /* Frameworks */,
+				100BC4B11DEE758000A5D30D /* Headers */,
+				100BC4B21DEE758000A5D30D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -83,8 +140,8 @@
 			);
 			name = NLKit;
 			productName = NLKit;
-			productReference = 100BC47B1DEE6F6000A5D30D /* libNLKit.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 100BC4B41DEE758000A5D30D /* NLKit.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -95,7 +152,7 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Nate Lyman";
 				TargetAttributes = {
-					100BC47A1DEE6F6000A5D30D = {
+					100BC4B31DEE758000A5D30D = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = 2T63WGCL3F;
 						ProvisioningStyle = Automatic;
@@ -114,17 +171,31 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				100BC47A1DEE6F6000A5D30D /* NLKit */,
+				100BC4B31DEE758000A5D30D /* NLKit */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		100BC4B21DEE758000A5D30D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		100BC4771DEE6F6000A5D30D /* Sources */ = {
+		100BC4AF1DEE758000A5D30D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				100BC4801DEE6F6000A5D30D /* NLKit.m in Sources */,
+				100BC4BE1DEE758600A5D30D /* NLJSON.m in Sources */,
+				100BC4BF1DEE758600A5D30D /* NLDefaults.m in Sources */,
+				100BC4BD1DEE758600A5D30D /* NLFunctional.m in Sources */,
+				100BC4C01DEE758600A5D30D /* NLNetworking.m in Sources */,
+				100BC4BC1DEE758600A5D30D /* NLDispatch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,23 +290,51 @@
 			};
 			name = Release;
 		};
-		100BC4851DEE6F6000A5D30D /* Debug */ = {
+		100BC4BA1DEE758000A5D30D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 2T63WGCL3F;
-				OTHER_LDFLAGS = "-ObjC";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NLKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.natelyman.NLKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		100BC4861DEE6F6000A5D30D /* Release */ = {
+		100BC4BB1DEE758000A5D30D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 2T63WGCL3F;
-				OTHER_LDFLAGS = "-ObjC";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NLKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.natelyman.NLKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -251,13 +350,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		100BC4841DEE6F6000A5D30D /* Build configuration list for PBXNativeTarget "NLKit" */ = {
+		100BC4B91DEE758000A5D30D /* Build configuration list for PBXNativeTarget "NLKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				100BC4851DEE6F6000A5D30D /* Debug */,
-				100BC4861DEE6F6000A5D30D /* Release */,
+				100BC4BA1DEE758000A5D30D /* Debug */,
+				100BC4BB1DEE758000A5D30D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
