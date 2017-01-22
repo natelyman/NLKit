@@ -6,6 +6,8 @@
 //  Copyright © 2016 Nate Lyman. All rights reserved.
 //
 
+@import Foundation;
+
 //! Project version number for NLKit.
 FOUNDATION_EXPORT double NLKitVersionNumber;
 
